@@ -49,9 +49,11 @@
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Library\BuildInstructions" />
+     <Folder Include="Assets\XRI\Settings\Resources" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\XR" />
      <Folder Include="Assets\Presets\Defaults" />
+     <Folder Include="Assets\XRI" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\Jigsaw" />
      <Folder Include="Assets\ExampleAssets\Textures\Drywall" />
@@ -63,9 +65,11 @@
      <Folder Include="Assets\Settings" />
      <Folder Include="Assets\ExampleAssets\Textures\Concrete" />
      <Folder Include="Assets\XR\Settings" />
+     <Folder Include="Assets\Samples" />
      <Folder Include="Assets\ExampleAssets\Textures\Metal" />
      <Folder Include="Assets\TutorialInfo" />
      <Folder Include="Assets\ExampleAssets" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit\2.5.2" />
      <Folder Include="Assets\TutorialInfo\Scripts" />
      <Folder Include="Assets\TutorialInfo\Icons" />
      <Folder Include="Assets\ExampleAssets\Models" />
@@ -75,9 +79,11 @@
      <Folder Include="Assets\ExampleAssets\Textures" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\HardHat" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit" />
      <Folder Include="Assets\ExampleAssets\Prefabs" />
      <Folder Include="Assets\ExampleAssets\Textures\Wood" />
      <Folder Include="Assets\ExampleAssets\Materials" />
+     <Folder Include="Assets\XRI\Settings" />
      <Reference Include="UnityEngine">
      <HintPath>D:\2023.1.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -923,6 +929,14 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{421f01c7-3955-e1d5-9a21-d9e0a7175c88}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{94caea55-de77-20db-be76-afc6c3a84fbb}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
