@@ -1,0 +1,50 @@
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Ignore Unity generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Ignore auto-generated files
+*.pidb.meta
+sysinfo.txt
+*.apk
+*.unitypackage
+*.crashlytics-build.properties
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Unity3D generated meta files
+*.meta
+*.asset.meta
+*.prefab.meta
+*.unity.meta
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore JetBrains Rider settings
+.idea/
+
+# Ignore Unity project settings
+ProjectSettings/
+
+# Ignore temporary files
+/[Tt]emp/
+/[Uu]ser[Ss]ettings/
