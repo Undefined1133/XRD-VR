@@ -767,11 +767,11 @@
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils">
+     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
@@ -875,11 +875,11 @@
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.OpenXR.Editor">
-     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.OpenXR.Editor">
+     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>

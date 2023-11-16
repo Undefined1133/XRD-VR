@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\AnimateHandOnInput.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Library\BuildInstructions" />
@@ -57,16 +58,20 @@
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\Jigsaw" />
      <Folder Include="Assets\ExampleAssets\Textures\Drywall" />
+     <Folder Include="Assets\Oculus Hands\Materials" />
      <Folder Include="Assets\XR\Loaders" />
      <Folder Include="Assets\ExampleAssets\Textures\Plastic" />
      <Folder Include="Assets\Presets" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\Hammer" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\Paint" />
      <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\Oculus Hands\Prefabs" />
      <Folder Include="Assets\ExampleAssets\Textures\Concrete" />
      <Folder Include="Assets\XR\Settings" />
      <Folder Include="Assets\Samples" />
      <Folder Include="Assets\ExampleAssets\Textures\Metal" />
+     <Folder Include="Assets\Oculus Hands\Animations" />
+     <Folder Include="Assets\Oculus Hands\Models" />
      <Folder Include="Assets\TutorialInfo" />
      <Folder Include="Assets\ExampleAssets" />
      <Folder Include="Assets\Samples\XR Interaction Toolkit\2.5.2" />
@@ -77,6 +82,7 @@
      <Folder Include="Assets\ExampleAssets\Textures\Props" />
      <Folder Include="Assets\ExampleAssets\Shaders" />
      <Folder Include="Assets\ExampleAssets\Textures" />
+     <Folder Include="Assets\Oculus Hands" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\HardHat" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Samples\XR Interaction Toolkit" />
@@ -762,11 +768,11 @@
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils">
+     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
@@ -870,11 +876,11 @@
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.OpenXR.Editor">
-     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.OpenXR.Editor">
+     <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:\UnityProjects\VR Project\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
