@@ -45,9 +45,11 @@
     <Analyzer Include="D:\2023.1.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ActivateGrabRay.cs" />
      <Compile Include="Assets\TeleportationRayManager.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\AnimateHandOnInput.cs" />
+     <Compile Include="Assets\FireBulletScript.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Library\BuildInstructions" />
@@ -55,8 +57,10 @@
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\XR" />
      <Folder Include="Assets\Presets\Defaults" />
+     <Folder Include="Assets\Pistol" />
      <Folder Include="Assets\XRI" />
      <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\Jigsaw" />
      <Folder Include="Assets\ExampleAssets\Textures\Drywall" />
      <Folder Include="Assets\Oculus Hands\Materials" />
@@ -83,11 +87,13 @@
      <Folder Include="Assets\ExampleAssets\Textures\Props" />
      <Folder Include="Assets\ExampleAssets\Shaders" />
      <Folder Include="Assets\ExampleAssets\Textures" />
+     <Folder Include="Assets\Pistol\Model" />
      <Folder Include="Assets\Oculus Hands" />
      <Folder Include="Assets\ExampleAssets\Textures\Props\HardHat" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Samples\XR Interaction Toolkit" />
      <Folder Include="Assets\ExampleAssets\Prefabs" />
+     <Folder Include="Assets\Pistol\Materials" />
      <Folder Include="Assets\ExampleAssets\Textures\Wood" />
      <Folder Include="Assets\ExampleAssets\Materials" />
      <Folder Include="Assets\XRI\Settings" />
