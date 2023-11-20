@@ -9,13 +9,7 @@ public class GameMenuManager : MonoBehaviour
     public Transform head;
     public float spawnDistance = 2f;
     public InputActionProperty showButton;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (showButton.action.WasPressedThisFrame())

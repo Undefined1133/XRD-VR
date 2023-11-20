@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{189caa47-0d5c-ba6c-e448-04017c163d0b}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{adcb396a-33fb-981c-7252-3b77ed2d4319}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj", "{94caea55-de77-20db-be76-afc6c3a84fbb}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{421f01c7-3955-e1d5-9a21-d9e0a7175c88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{189caa47-0d5c-ba6c-e448-04017c163d0b}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{189caa47-0d5c-ba6c-e448-04017c163d0b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189caa47-0d5c-ba6c-e448-04017c163d0b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{adcb396a-33fb-981c-7252-3b77ed2d4319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{adcb396a-33fb-981c-7252-3b77ed2d4319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94caea55-de77-20db-be76-afc6c3a84fbb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94caea55-de77-20db-be76-afc6c3a84fbb}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{421f01c7-3955-e1d5-9a21-d9e0a7175c88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{421f01c7-3955-e1d5-9a21-d9e0a7175c88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{189caa47-0d5c-ba6c-e448-04017c163d0b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{189caa47-0d5c-ba6c-e448-04017c163d0b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,20 +12,15 @@ public class FireBulletScript : MonoBehaviour
     public Transform spawnPoint;
 
     public float fireSpeed;
-    
-    // Start is called before the first frame update
+
+    public AudioClip shootClip;
+    public AudioSource audioSource;
+
     void Start()
     {
         XRGrabInteractable interactable = GetComponent<XRGrabInteractable>();
         interactable.activated.AddListener(FireBullet);
         InvokeRepeating(nameof(AutoFire), 0f, 3f);
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void FireBullet(ActivateEventArgs args)
@@ -34,6 +29,11 @@ public class FireBulletScript : MonoBehaviour
         spawnedBullet.transform.position = spawnPoint.position;
         spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnedBullet, 5);
+        
+        if (audioSource != null && shootClip != null)
+        {
+            audioSource.PlayOneShot(shootClip);
+        }
     }
     
     private void AutoFire()
@@ -42,5 +42,9 @@ public class FireBulletScript : MonoBehaviour
         spawnedBullet.transform.position = spawnPoint.position;
         spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnedBullet, 5);
+        if (audioSource != null && shootClip != null)
+        {
+            audioSource.PlayOneShot(shootClip);
+        }
     }
 }
